@@ -4,7 +4,8 @@ class Processo:
         self.nome = nome
         self.tempo_chegada = tempo_chegada
         self.tempo_servico = tempo_servico 
-        self.tempo_restante = tempo_servico 
+        self.tempo_restante = tempo_servico
+        self.em_andamento = False 
         self.momento_do_termino = 0 # é inicializado aqui e calculado na simulação
         self.momento_de_inicio = 0 # é inicializado aqui e calculado na simulação
 
